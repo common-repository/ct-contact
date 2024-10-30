@@ -1,0 +1,35 @@
+/*
+* Styles
+* 
+* @package CT Contact
+* @subpackage CSS
+*
+
+/* ============================================================================== */
+/* Browser Reset
+/* ============================================================================== */
+
+	.widget_ct_contact ul,
+	.widget_ct_contact li {	border: none; margin: 0; padding: 0; list-style: none;}
+
+/* ============================================================================== */
+/* List Styles
+/* ============================================================================== */
+
+	.widget_ct_contact li { padding: 0; border: none;}
+		.widget_ct_contact li#company-name { font-weight: bold;}
+		.widget_ct_contact li#company-email { padding: 5px 0 0 0;}
+		.widget_ct_contact li#viewmore { margin: 15px 0 0 0;}
+		.widget_ct_contact li#viewmore { text-align: right;}
+			
+			.widget_ct_contact a:hover { text-decoration: none;}
+			
+				.widget_ct_contact a.read-more {
+					display: inline-block; -webkit-transition: color 400ms ease-out; -moz-transition: color 400ms ease-out;
+				}
+					.widget_ct_contact a.read-more em {
+						-webkit-transition: all 200ms ease-out; -moz-transition: all 200ms ease-out;
+					}
+						.widget_ct_contact a.read-more:hover em{
+							padding-left: 5px;
+						}
